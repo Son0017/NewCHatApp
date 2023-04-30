@@ -52,6 +52,7 @@ const APP = styled.div`
 `;
 const Welcome = styled.div`
   display: flex;
+  padding: 5px;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -74,8 +75,11 @@ const Welcome = styled.div`
     margin-bottom: 15px;
   }
   div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: white;
-    padding: 15px 30px;
+    max-width: 600px;
     border-radius: 15px;
   }
 `;
