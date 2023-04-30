@@ -78,20 +78,5 @@ const Welcome = styled.div`
     padding: 15px 30px;
     border-radius: 15px;
   }
-  @media only screen and (max-width: 770px) {
-    width: 420px;
-    overflow: hidden;
-    display: none;
-    ${(props) =>
-      props.open &&
-      css`
-        display: flex;
-      `};
-    ${(props) =>
-      !props.open &&
-      css`
-        display: none;
-      `};
-  }
 `;
 export default App;
