@@ -79,7 +79,8 @@ const Welcome = styled.div`
     flex-direction: column;
     align-items: center;
     background: white;
-    max-width: 600px;
+    max-width: 700px;
+    padding: 15px 5px;
     border-radius: 15px;
   }
 `;
